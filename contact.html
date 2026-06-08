@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - EventSphere</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+/* Header */
+
+.contact-header{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.contact-header h1{
+    font-size:3rem;
+    font-weight:700;
+}
+
+/* Contact Section */
+
+.contact-section{
+    padding:60px 0;
+}
+
+.contact-card,
+.coordinator-card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    height:100%;
+}
+
+.form-control,
+textarea{
+    border-radius:10px;
+}
+
+.btn-send{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+}
+
+.btn-send:hover{
+    background:#1d4ed8;
+}
+
+/* Social Icons */
+
+.social-links a{
+    display:inline-block;
+    margin-right:15px;
+    font-size:24px;
+    color:#2563eb;
+    transition:0.3s;
+}
+
+.social-links a:hover{
+    transform:scale(1.2);
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Header -->
+
+<section class="contact-header">
+    <h1>Contact Us</h1>
+    <p>Get in touch with the Event Coordination Team</p>
+</section>
+
+<!-- Contact Section -->
+
+<section class="contact-section">
+<div class="container">
+
+<div class="row g-4">
+
+    <!-- Contact Form -->
+
+    <div class="col-lg-7">
+        <div class="contact-card">
+
+            <h3 class="mb-4">Contact Form</h3>
+
+            <form>
+
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Subject</label>
+                    <input type="text" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-send">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Coordinator Details -->
+
+    <div class="col-lg-5">
+        <div class="coordinator-card">
+
+            <h3 class="mb-4">Coordinator Details</h3>
+
+            <p><strong>Name:</strong> Karthik Reddy</p>
+
+            <p><strong>Role:</strong> Event Coordinator</p>
+
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+
+            <p><strong>Email:</strong> coordinator@eventsphere.com</p>
+
+            <hr>
+
+            <h4 class="mb-3">Follow Us</h4>
+
+            <div class="social-links">
+
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+    © 2026 EventSphere | College Event Management System
+</footer>
+
+</body>
+</html>
